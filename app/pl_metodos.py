@@ -8,7 +8,7 @@ from ui.ui_player import Ui_Player
 class PlMetodos(QMainWindow, Ui_Player):
     """docstring for PlMetodos."""
     def __init__(self, parent = None):
-        super(PlMetodos, self).__init__(parent)
+        super().__init__(parent)
 
 
         self.setupUi(self)
